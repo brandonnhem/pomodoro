@@ -1,0 +1,29 @@
+.break-selector-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #161932;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 31.5px;
+}
+
+.break {
+    cursor: pointer;
+}
+
+.selected {
+    border-radius: 26.5px;
+    background-color: #F87070;
+    padding: 0 23px;
+    margin: 7px 7px 7px -23px;
+}
+
+.selected h3 {
+    color: #1E213F;
+}
+
+h3 {
+    font-size: 12px;
+    color: #D7E0FF;
+}
+
