@@ -1,5 +1,6 @@
 .app {
   margin: 24px;
+  position: relative;
 }
 
 header {
