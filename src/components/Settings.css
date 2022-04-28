@@ -66,13 +66,13 @@ p {
     margin-right: 70px;
 }
 
-.time-settings {
+.time-btns {
     background-color: #EFF1FA;
     border-radius: 10px;
     width: 140px;
 }
 
-.time-settings span {
+.time-btns span {
     display: flex;
     flex-direction: row;
     align-items: center;

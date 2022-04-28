@@ -50,7 +50,7 @@ function Settings({ isOpen, toggleSettings }) {
                 <div className="time-settings">
                     <div className="time-modifier">
                         <p>pomodoro</p>
-                        <div className="time-settings">
+                        <div className="time-btns">
                             <span>
                                 {pomodoroTime}
                                 <div className="arrow-wrap">
@@ -66,7 +66,7 @@ function Settings({ isOpen, toggleSettings }) {
                     </div>
                     <div className="time-modifier">
                         <p>short break</p>
-                        <div className="time-settings">
+                        <div className="time-btns">
                             <span>
                                 {shortTime}
                                 <div className="arrow-wrap">
@@ -82,7 +82,7 @@ function Settings({ isOpen, toggleSettings }) {
                     </div>
                     <div className="time-modifier">
                         <p>long break</p>
-                        <div className="time-settings">
+                        <div className="time-btns">
                             <span>
                                 {longTime}
                                 <div className="arrow-wrap">
