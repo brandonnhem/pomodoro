@@ -48,10 +48,9 @@ function Settings({ isOpen, toggleSettings }) {
             <section className="time-section">
                 <h3>Time (minutes)</h3>
                 <div className="time-settings">
-                    {/* CHANGE CLASSNAME */}
                     <div className="time-modifier">
                         <p>pomodoro</p>
-                        <div className="dropdown-list">
+                        <div className="time-settings">
                             <span>
                                 {pomodoroTime}
                                 <div className="arrow-wrap">
@@ -67,7 +66,7 @@ function Settings({ isOpen, toggleSettings }) {
                     </div>
                     <div className="time-modifier">
                         <p>short break</p>
-                        <div className="dropdown-list">
+                        <div className="time-settings">
                             <span>
                                 {shortTime}
                                 <div className="arrow-wrap">
@@ -83,7 +82,7 @@ function Settings({ isOpen, toggleSettings }) {
                     </div>
                     <div className="time-modifier">
                         <p>long break</p>
-                        <div className="dropdown-list">
+                        <div className="time-settings">
                             <span>
                                 {longTime}
                                 <div className="arrow-wrap">
