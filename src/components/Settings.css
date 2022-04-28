@@ -72,7 +72,7 @@ p {
     width: 140px;
 }
 
-span {
+.dropdown-list span {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,6 +103,7 @@ span {
 
 .font-option {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #EFF1FA;
     width: 40px;
