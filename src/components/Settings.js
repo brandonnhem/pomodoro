@@ -261,7 +261,7 @@ function Settings({ isOpen, toggleSettings }) {
               onClick={() => setColor("color2")}
             >
               <div
-                class="check-wrapper"
+                className="check-wrapper"
                 style={{ display: `${color === "color2" ? "block" : "none"}` }}
               >
                 <svg
@@ -285,7 +285,7 @@ function Settings({ isOpen, toggleSettings }) {
               onClick={() => setColor("color3")}
             >
               <div
-                class="check-wrapper"
+                className="check-wrapper"
                 style={{ display: `${color === "color3" ? "block" : "none"}` }}
               >
                 <svg
